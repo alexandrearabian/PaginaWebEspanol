@@ -16,7 +16,7 @@ const MainPage = () => {
     const LinkedinLink = "https://www.linkedin.com/in/alexandre-arabian-jensezian";
     const GithubLink = "https://github.com/alexandrearabian";
 
-    const { ref: aboutRef, inView: aboutInView, entry: aboutEntry } = useInView({ rootMargin: '0px', threshold: 0 });
+    const { ref: aboutRef, inView: aboutInView, entry: aboutEntry } = useInView({ rootMargin: '-30px', threshold: 0 });
     const { ref: formationRef, inView: formationInView, entry: formationEntry } = useInView({ rootMargin: '-50px', threshold: 0 });
     const { ref: experienceRef, inView: experienceInView, entry: experienceEntry } = useInView({ rootMargin: '-50px', threshold: 0 });
 

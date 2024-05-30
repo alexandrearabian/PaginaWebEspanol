@@ -52,7 +52,6 @@ function BlogPost() {
                 <img src={Image4} alt="Community impact illustration" />
                 <p>Imagina cómo sería vivir en una sociedad donde la población está más organizada, productiva y comprometida con su bienestar y el de los demás. Ejemplos concretos de esto se pueden encontrar en comunidades donde se practican acciones simples pero significativas, como reciclar y cuidar el medio ambiente. Estas comunidades no solo disfrutan de un entorno más limpio, sino que también cultivan un sentido de responsabilidad compartida y bienestar para todos sus miembros.</p>
 
-                <h2><FaLightbulb /> Conclusión</h2>
                 <p>Las listas de tareas y los hábitos son herramientas poderosas que, cuando se combinan, pueden cambiar no solo nuestras propias vidas, sino también la estructura de nuestra sociedad. En un mundo de distracciones constantes y sobrecarga de información, es más importante que nunca mantenernos organizados y encontrar formas de cultivar buenos hábitos. Adoptar estas prácticas puede ser el primer paso hacia un futuro productivo y saludable. Es hora de empezar a escribir nuestras tareas y construir hábitos que nos guíen hacia una vida mejor.</p>
             </div>
             <footer id="contact" className="footer">
