@@ -3,7 +3,6 @@ import DownloadElement from '../components/DownloadElement';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faDownload, faEnvelope, faPlay } from '@fortawesome/free-solid-svg-icons';
 import ProfilePicture from '../assets/ProfilePicture.jpeg';
-import Curriculum from '../assets/Alexandre-Arabian-CV-Español-Linkedin.pdf';
 import CurriculumTradicional from '../assets/Alexandre-Arabian-CV-Tradicional.pdf';
 import CurriculumInfografico from '../assets/Alexandre-Arabian-CV-Infografico.pdf';
 import CartaMotivacion from '../assets/Carta-Motivacion.pdf';
@@ -13,7 +12,7 @@ import Experience from '../components/Experience';
 import Formation from '../components/Formation';
 import { useInView } from 'react-intersection-observer';
 
-const MainPage = ({ language }) => {
+const MainPage = () => {
     const LinkedinLink = "https://www.linkedin.com/in/alexandre-arabian-jensezian";
     const GithubLink = "https://github.com/alexandrearabian";
 
@@ -155,15 +154,15 @@ const MainPage = ({ language }) => {
 
                 <br id='above-about' className='filler-space' />
                 <section ref={aboutRef} id="about" className={`section ${aboutIsVisible ? '' : 'hidden-section'}`}>
-                    <AboutMe language={language} wordInView={aboutIsVisible} />
+                    <AboutMe wordInView={aboutIsVisible} />
                 </section>
                 <br id='above-formation' className='filler-space' />
                 <section ref={formationRef} id="about" className={`section ${formationIsVisible ? '' : 'hidden-section'}`}>
-                    <Formation language={language} wordInView={formationIsVisible} />
+                    <Formation wordInView={formationIsVisible} />
                 </section>
                 <br id='above-experience' className='filler-space' />
                 <section ref={experienceRef} id="experience" className={`section ${experienceIsVisible ? '' : 'hidden-section'}`}>
-                    <Experience language={language} wordInView={experienceIsVisible} />
+                    <Experience wordInView={experienceIsVisible} />
                 </section>
 
                 <footer id="contact" className="footer">

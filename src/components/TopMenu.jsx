@@ -1,5 +1,4 @@
 import React from 'react';
-import LanguageSelector from './LanguageSelector';
 import { Link } from 'react-router-dom';
 
 const TopMenu = () => {

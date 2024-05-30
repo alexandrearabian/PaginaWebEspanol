@@ -3,7 +3,6 @@
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
-import MainPage from './pages/MainPage';
 import MainPageSpanish from './pages/MainPageSpanish';
 import BlogPost from './components/BlogPost';
 import TopMenu from './components/TopMenu';
@@ -29,9 +28,9 @@ function App() {
         <div className="ball ball6"></div>
       </div>
 
-      <TopMenu/>
+      <TopMenu />
       <Routes>
-        <Route path="/" element={<MainPageSpanish language={language} />} />
+        <Route path="/" element={<MainPageSpanish />} />
         <Route path="/blog-post" element={<BlogPost />} />
       </Routes>
     </Router>
