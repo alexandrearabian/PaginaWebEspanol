@@ -29,9 +29,9 @@ function App() {
         <div className="ball ball6"></div>
       </div>
 
-      <TopMenu setLanguage={setLanguage} language={language} />
+      <TopMenu/>
       <Routes>
-        <Route path="/" element={language === 'en' ? <MainPage /> : <MainPageSpanish language={language} />} />
+        <Route path="/" element={<MainPageSpanish language={language} />} />
         <Route path="/blog-post" element={<BlogPost />} />
       </Routes>
     </Router>
