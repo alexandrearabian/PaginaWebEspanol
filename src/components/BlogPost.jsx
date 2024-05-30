@@ -13,7 +13,7 @@ function BlogPost() {
         <>
             <div className="blog-post">
                 <h1>Revolución Silenciosa: Estructura y Comportamiento en la Sociedad Moderna</h1>
-                <p>En el ajetreo de la vida moderna, la organización y la eficiencia se han convertido en pilares clave para el éxito. La herramienta más simple, pero poderosa, para lograr esto es la acción organizada, un aliado silencioso que puede cambiar nuestras vidas diarias.</p>
+                <p>En el ajetreo de la vida moderna, la organización y la eficiencia se han convertido en pilares clave para el éxito. La herramienta más simple, pero poderosa, para lograr esto es la acción organizada, un aliado silencioso que puede cambiar nuestro día a día.</p>
 
                 <h2><FaRegListAlt /> El poder de las listas de tareas</h2>
                 <p>A primera vista, una lista de tareas puede parecer una simple lista de cosas por hacer. Pero su impacto va mucho más allá. ¿Acaso no sentimos una gran satisfacción cuando vemos un proyecto completado? Estas listas nos permiten:</p>
